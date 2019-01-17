@@ -1,0 +1,13 @@
+{
+  "name": "iihante-test",
+  "version": "1.0.0",
+  "description": "iihante - Starter Kit Test",
+  "scripts": {},
+  "author": "Anirudh Varanasi",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.16.4",
+    "open": "0.0.5"
+  }
+}
