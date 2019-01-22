@@ -9,21 +9,6 @@ export default {
   devtool: 'inline-source-map',
   entry: [path.resolve(__dirname, 'src/index')],
   target: 'web',
-  stats: {
-    // copied from `'minimal'`
-    all: false,
-    modules: true,
-    maxModules: 0,
-    errors: true,
-    warnings: true,
-    // our additional options
-    moduleTrace: true,
-    errorDetails: true,
-    colors: {
-      green: '\u001b[32m',
-    },
-  },
-  watch: true,
   output: {
     path: path.resolve(__dirname, 'src'),
     publicPath: '/',
