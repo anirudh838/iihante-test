@@ -43,7 +43,7 @@ export default {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename:'[name].[chunkhash].css',
+      filename: '[name].[chunkhash].css',
       chunkFilename: '[id].[chunkhash].css',
     }),
 
@@ -75,6 +75,7 @@ export default {
       {
         test: /\.css$/,
         use: [
+          "style-loader",
           MiniCssExtractPlugin.loader,
           "css-loader"
         ]
